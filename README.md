@@ -135,7 +135,7 @@ Construção de API para realizar a logística de produtos alimentícios em esta
 #**Como rodar a aplicação:**
 
 ##No terminal, clone o projeto; git clone https ou ssh do projeto: 
-- git clone https://github.com/maik-henrique/DH-Projeto-Integrador.git 
+- git clone https://github.com/MatheusGuerra2022/Projeto-Integrador-Requisito-06.git
 #Acesse a pasta do projeto via terminal, para iniciar o projeto: 
 - mvn clean install 
 
@@ -160,6 +160,9 @@ Inicialize a aplicacao springboot na IDE e acessse os endpoints  utilizando Post
 
 #**Diagrama - # DER:**
 [Diagrama Entidade e Relacionamento](https://whimsical.com/4VfH3PMQLRV3u33RUJniwY)
+
+## DER - Requisito 6
+[Diagrama Entidade e Relacionamento - Requisito 6](https://whimsical.com/requisito-6-SePwskzVhobdFfi4DVPwt6)
 
 ***
 
