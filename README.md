@@ -1,6 +1,6 @@
-#**Projeto Integrador - Bootcamp Mercado Livre **
+# **Projeto Integrador - Bootcamp Mercado Livre**
 
-#**MERCADO LIVRE - FRESCOS **
+# **MERCADO LIVRE - FRESCOS**
 
 ##Tecnologias utilizadas 
 - Java 
@@ -158,7 +158,7 @@ Inicialize a aplicacao springboot na IDE e acessse os endpoints  utilizando Post
 
 ***
 
-#**Diagrama - # DER:**
+#**Diagrama - DER:**
 [Diagrama Entidade e Relacionamento](https://whimsical.com/4VfH3PMQLRV3u33RUJniwY)
 
 ## DER - Requisito 6
@@ -174,7 +174,7 @@ Inicialize a aplicacao springboot na IDE e acessse os endpoints  utilizando Post
 
 ***
 
-##niciando/Configurando banco de dados
+##Iniciando/Configurando banco de dados
 ##Para iniciar o servico de banco de dados no docker: 
 - docker-compose --file docker-compose.dev.yml up
 
