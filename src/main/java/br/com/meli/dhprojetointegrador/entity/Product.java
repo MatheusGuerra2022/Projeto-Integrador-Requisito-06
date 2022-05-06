@@ -29,13 +29,16 @@ import lombok.Setter;
 public class Product {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private BigDecimal price;
     private float volume;
+    private Boolean statusProduct;
+
     @ManyToOne
     @JoinColumn(name = "category_id")
+    @JsonIgnore
     private Category category;
 
     @ManyToOne
@@ -44,8 +47,9 @@ public class Product {
     private Seller seller;
 
     @OneToMany(mappedBy = "products")
+    @JsonIgnore
     private Set<BatchStock> batchStockList;
 
-    private Boolean statusProduct;
+
 
 }

@@ -89,6 +89,7 @@ public class SellerController {
                                                         UriComponentsBuilder uriBuilder){
 
         Product product = modelMapper.map(sellerProduct, Product.class);
+        product.setStatusProduct(true);
         Seller seller = sellerService.findSellerById(seller_id);
         Long productId = productService.saveProductWithSeller(product,seller).getId();
         Product productSaved = productService.findProductById(productId);

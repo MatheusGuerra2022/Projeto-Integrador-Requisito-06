@@ -219,7 +219,7 @@ public class SellerControllerTests extends BaseIntegrationControllerTests {
         Product product = setupProduct("Pingente", seller);
 
         MvcResult result = mockMvc
-                .perform(MockMvcRequestBuilders.put("/api/v1/seller/{sellerId}/change-product-status/{productId}", 1, 2)
+                .perform(MockMvcRequestBuilders.put("/api/v1/seller/{sellerId}/change-product-status/{productId}", 1, 1)
                         .param("status", "false"))
                 .andExpect(MockMvcResultMatchers.status().isOk()).andReturn();
 
